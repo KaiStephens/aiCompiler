@@ -1,0 +1,8 @@
+@language: python
+@output: hello.py
+
+Create a simple Python program that:
+1. Prints "Hello, GPT Compiler!" to the console
+2. Defines a function called 'greet' that takes a name parameter and returns a greeting
+3. Calls the greet function with a few different names
+4. Uses a dictionary to store and display information about this compiler project 

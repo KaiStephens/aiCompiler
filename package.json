@@ -1,0 +1,39 @@
+{
+  "name": "gpt-compiler",
+  "version": "1.0.0",
+  "description": "Compile English instructions in .gpt files to code using AI",
+  "main": "index.js",
+  "bin": {
+    "gpt-compiler": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiStephens/aiCompiler.git"
+  },
+  "keywords": [
+    "ai",
+    "compiler",
+    "openrouter",
+    "gpt",
+    "code-generation",
+    "natural-language"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KaiStephens/aiCompiler/issues"
+  },
+  "homepage": "https://github.com/KaiStephens/aiCompiler#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0"
+  }
+}
